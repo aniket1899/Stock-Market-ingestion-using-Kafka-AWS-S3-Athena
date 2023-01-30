@@ -59,9 +59,12 @@
 5. Access data using SQL in _AWS Athena_ by connecting to the Glue database previously created. Create temp bucket as well.
 6. We can keep the Producer script running, and notice the results in real time in AWS Athena SQL console.
 7. Testing in CLI in EC2: 
+
    ![link](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_producer_consumer_CLI.png)
 8. Testing with local machine in Python: 
+
    Producer
    ![producer](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_local_producer.png) 
+
    Consumer
    ![result](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_consumer_CLI_from_local_producer.png)
