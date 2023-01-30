@@ -25,7 +25,7 @@
 
 ### Start a new Kakfa topic
 
-1. Another terminal window, another EC2 connection
+1. Another terminal window, another EC2 connection.
 2. Create a new topis using:
 
    > bin/kafka-topics.sh --create --topic **topicname** --bootstrap-server **Public IP of EC2**:9092 --replication-factor 1 --partitions 1
@@ -42,7 +42,7 @@
 
 ### Start a new Consumer
 
-1. Another terminal window, another EC2 connection
+1. Another terminal window, another EC2 connection.
 2. Create a consumer using:
 
    > bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server **Public IP of EC2**:9092
