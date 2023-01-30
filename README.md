@@ -61,5 +61,7 @@
 7. Testing in CLI in EC2: 
    ![link](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_producer_consumer_CLI.png)
 8. Testing with local machine in Python: 
+   Producer
    ![producer](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_local_producer.png) 
+   Consumer
    ![result](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_consumer_CLI_from_local_producer.png)
