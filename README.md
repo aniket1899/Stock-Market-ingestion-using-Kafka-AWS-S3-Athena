@@ -54,7 +54,9 @@
 1. Create _Producer_ using a Python notebook (_python-stk-simulation > kafka_producer.ipynb_), this can be done on the basis of date, but for this simulation I'm randomly sampling rows to feed to the Kafka Producer.
 2. Create _Consumer_ using a Python notebook (_python-stk-simulation > kafka_consumer.ipynb_), and write this to a .json file in S3 bucket.
    > Note: Setup IAM role to interact with AWS CLI on the local machine.
-3. Stored results in the _AWS S3_ bucket: link
+3. Stored results in the _AWS S3_ bucket: [link](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/AWSS3_data.png)
 4. Create a _Crawler_ from _AWS Glue Data Catalog_ to access data in the S3 bucket. Create a new database in Glue to store results.
 5. Access data using SQL in _AWS Athena_ by connecting to the Glue database previously created. Create temp bucket as well.
 6. We can keep the Producer script running, and notice the results in real time in AWS Athena SQL console.
+7. Testing in CLI in EC2: [link](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_producer_consumer_CLI.png)
+8. Testing with local machine in Python: [producer](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_local_producer.png) [result](https://github.com/aniket1899/Stock-Market-ingestion-using-Kafka-AWS-S3-Athena/blob/main/screenshots/test_consumer_CLI_from_local_producer.png)
